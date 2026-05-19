@@ -572,7 +572,15 @@ private String validateSortField(String sortBy) {
 //─────────────────────────────────────────────
 //GET DOCUMENT TEXT FOR AI
 //─────────────────────────────────────────────
-
+//can you write a add method to get addition of two values
+ 
+ 
+public int add(int a,int b) {
+	 a=10;
+	 b=10;
+	return a+b;
+}
+ 
 @Transactional(readOnly = true)
 public String getDocumentText(String userFileId) {
 
